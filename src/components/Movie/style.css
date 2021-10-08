@@ -1,0 +1,77 @@
+.movie-item {
+    width: 450px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.poster {
+    width: 120px;
+    margin: 40px 20px 80px 20px;
+}
+
+.main-info {
+    margin: 35px 0px 20px 0px;
+    flex-basis: 60%;
+}
+
+.main-info > p {
+    margin: 5px 0;
+}
+
+.title {
+    color: red;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.list-item {
+    font-weight: bold;
+}
+
+.ribbon {
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.rating {
+    position: relative;
+    display: block;
+    left: -40px;
+    top: 15px;
+    width: 158px;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+    transform: rotate(-45deg) translate3d(0,0,0);
+}
+
+.rating--big {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    color: red;
+    padding: 10px 0px 5px 0px;
+}
+
+.actors {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+    gap: 5px;  
+}
+
+p {
+    font-size: 14px;
+}

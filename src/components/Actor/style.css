@@ -1,0 +1,14 @@
+h4 {
+    font-size: 15px;
+}
+
+div.actor-item > p {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.actors {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+}

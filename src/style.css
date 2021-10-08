@@ -8,9 +8,9 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.logo {
-  display: inline-block;
-  width: auto;
-  height: 1em;
-  margin-right: 0.3em;
+* {margin: 0; padding: 0;}
+
+.app {
+  background-color: lightgrey;
+  padding-bottom: 10px;
 }
